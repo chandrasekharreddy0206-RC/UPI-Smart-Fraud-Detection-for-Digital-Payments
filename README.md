@@ -39,22 +39,6 @@ Adapt to new fraud patterns
 
 Provide fast and accurate predictions
 
-💡 Proposed Solution
-
-UPI-Watch uses a Random Forest Machine Learning model trained on transaction-related features such as:
-
-Transaction hour
-
-Day and month
-
-Transaction amount
-
-Transaction frequency
-
-UPI ID characteristics
-
-The trained model is deployed using Flask, allowing users to input transaction details and instantly receive fraud predictions.
-
 🏗️ System Architecture
 User (Browser)
       ↓
@@ -91,14 +75,6 @@ HTML
 
 CSS
 
-🔹 Tools
-
-Jupyter Notebook
-
-VS Code
-
-Git & GitHub
-
 ⚙️ How It Works
 
 User enters transaction details via web form
@@ -114,21 +90,6 @@ Result is displayed as:
 ⚠️ Fraudulent Transaction
 
 Prediction reasoning is shown for transparency
-
-▶️ How to Run the Project Locally
-# Clone the repository
-git clone https://github.com/your-username/UPI-Watch.git
-
-# Navigate to project folder
-cd UPI-Watch
-
-# Run the application
-python app.py
-
-
-Open browser and go to:
-
-http://127.0.0.1:5000/
 
 📊 Results
 
@@ -164,7 +125,7 @@ Online deployment using cloud platforms
 
 👨‍🎓 Developed By
 
-Final Year Student
+Final Year Student R.CHANDRA SEKHAR REDDY
 Department of Computer Science / AI / Data Science
 
 📄 License
